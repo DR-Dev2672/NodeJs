@@ -1,13 +1,7 @@
-server is created 1728999066049 /
-server is created 1728999176150 /
-server is created 1728999210791 /
-server is created 1728999214486 /
-server is created 1728999215320 /
-server is created 1728999215732 /
-server is created 1728999215948 /
-server is created 1728999225766 /
-server is created 1728999241732 /
-server is created 1728999600628 /
-server is created 1728999604942 /
-server is created 1728999616149 /about
-server is created 1728999622548 /me
+server is created 1729089950887: this is   /about?name=%22dev%22  
+server is created 1729089961234: this is   /about?name=dev  
+server is created 1729089976912: this is   /about?name=dev&age=24  
+server is created 1729090018848: this is   /about?name=dev&age=24  
+server is created 1729090042636: this is   /about  
+server is created 1729090050079: this is   /  
+server is created 1729090075075: this is   /signup  
