@@ -1,0 +1,9 @@
+1_ express is easy framework for beginner to start .Express is used to build small to medium level projects.
+
+2_versioning of any software is important. It is divided into three parts 
+
+ x.y.z
+ z-->it is minor fixings in 
+ y-->it changes when some features added and 
+ x-->it changes when their is large change in software or syntax...So it is suggested to never update your major version in any ongoing projects.
+    It is okay to use new version on new projects .
