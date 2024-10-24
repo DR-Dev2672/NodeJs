@@ -1,6 +1,8 @@
 const express=require('express');
 const app=express();
 
+const fs=require('fs')
+
 //    middle ware are of two types
 //    first one is built in and second is 
 //    custom build
@@ -10,6 +12,14 @@ app.use(express.urlencoded({extended:false}))
 
 
 //custom built
+
+app.use((req,res,next)=>{
+    fs.appendFile('log.txt',`\n${req.ip} : ${req.path} : ${req.method} : ${Date.now()}\n`,(err,data)=>{
+     next();
+    })
+    
+})
+
 app.use((req,res,next)=>{
  console.log("this is Middleware 1")
  req.myUserName="dev";
