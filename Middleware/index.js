@@ -1,7 +1,22 @@
+const { timeStamp } = require('console');
 const express=require('express');
 const app=express();
 
 const fs=require('fs')
+
+
+
+//schema
+
+const mongoose =require('mongoose')
+
+const userSchema=new mongoose.schema({
+// ...
+},timeStamp)
+
+const User= mongoose.model("user",userSchema)
+
+
 
 //    middle ware are of two types
 //    first one is built in and second is 
