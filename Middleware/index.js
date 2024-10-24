@@ -24,7 +24,7 @@ app.use((req,res,next)=>{
  console.log("this is Middleware 1")
  req.myUserName="dev";
  next();
- return res.json({msg:"hello from middleware 1"})
+//  return res.json({msg:"hello from middleware 1"})
  
 })
 
